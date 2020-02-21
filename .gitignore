@@ -1,0 +1,15 @@
+/lib
+/target/**
+/test-output/**
+/target/
+/target/classes/com/
+/target/classes/**
+/target/classes/
+/target/classes/log4j.xml
+/target/classes/META-INF/MANIFEST.MF
+/target/classes/TestData.xml
+/firefox.xlsx
+/~$firefox.xlsx
+/logfile.log
+/.metadata
+/.metadata/**
