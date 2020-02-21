@@ -1,4 +1,4 @@
-package com.niche.test;
+package com.niche.test.splashpage;
 
 import java.util.regex.Pattern;
 import java.util.concurrent.TimeUnit;
