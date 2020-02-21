@@ -1,5 +1,6 @@
 package com.niche.test.splashpage;
 
+
 import java.util.regex.Pattern;
 import java.util.concurrent.TimeUnit;
 import org.testng.annotations.*;
@@ -23,14 +24,8 @@ public class SplashPageTestCase {
 
   @Test
   public void testSplashPageTestCase() throws Exception {
-    driver.get("https://www.katalon.com/sign-up/?utm_source=browser%20store&utm_campaign=installed%20plugin");
-    driver.findElement(By.id("user_login")).click();
-    driver.findElement(By.id("user_login")).clear();
-    driver.findElement(By.id("user_login")).sendKeys("denis putnam");
-    driver.findElement(By.id("user_email")).clear();
-    driver.findElement(By.id("user_email")).sendKeys("my@mail.com");
-    driver.findElement(By.id("user_pass")).clear();
-    driver.findElement(By.id("user_pass")).sendKeys("dummy");
+    driver.get("http://localhost:4200/");
+    driver.findElement(By.xpath("//p-menu[@id='itemsId']/div/ul/li[2]/a/span")).click();
   }
 
   @AfterClass(alwaysRun = true)
@@ -75,3 +70,4 @@ public class SplashPageTestCase {
     }
   }
 }
+
