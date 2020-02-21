@@ -1,0 +1,20 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<!-- <suite name="Test Suite" verbose="5" parallel="tests" thread-count="5"> -->
+<suite name="Firefox Test Suite" parallel="none" verbose="5">
+	<listeners>
+		<listener class-name="com.utility.Listener"></listener>
+		<!-- <listener class-name="com.utility.AnnotationTransformer" /> -->
+	</listeners>
+
+	<test name="Splash Page Test Firefox">
+		<parameter name="browser" value="firefox"> </parameter>
+		<parameter name="local" value="true"></parameter>
+		<parameter name="userName" value="etest182"></parameter>
+		<parameter name="password" value="password"></parameter>
+		<classes>
+			<class name="com.niche.test.splashpage.SplashPageTestCase"></class>
+		</classes>
+	</test>
+	
+
+</suite>
