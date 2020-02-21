@@ -16,16 +16,8 @@ import org.openqa.selenium.support.PageFactory;
 public class SplashPagePOM {
 	private WebDriver driver;
 	
-	@FindBy(id = "user_login")
-	private WebElement userLogin;
-			
-	public WebElement getUserLogin() {
-		return userLogin;
-	}
-
-	public void setUserLogin(WebElement userLogin) {
-		this.userLogin = userLogin;
-	}
+	@FindBy(xpath = "//p-menu[@id='itemsId']/div/ul/li[2]/a/span")
+	WebElement menu;
 
 	public SplashPagePOM(WebDriver driver) {
 		// The web driver is set up in the com.feis.test package, via the setUp() method.
@@ -46,6 +38,14 @@ public class SplashPagePOM {
 	 */
 	public void setDriver(WebDriver driver) {
 		this.driver = driver;
+	}
+
+	public WebElement getMenu() {
+		return menu;
+	}
+
+	public void setMenu(WebElement menu) {
+		this.menu = menu;
 	}
 
 }
