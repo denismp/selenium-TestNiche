@@ -6,7 +6,7 @@
 		<!-- <listener class-name="com.utility.AnnotationTransformer" /> -->
 	</listeners>
 
-	<test name="Splash Page Test Firefox">
+	<test name="Menu On Splash Page Test Firefox">
 		<parameter name="browser" value="firefox"> </parameter>
 		<parameter name="local" value="true"></parameter>
 		<parameter name="userName" value="etest182"></parameter>
