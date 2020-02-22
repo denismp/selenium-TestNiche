@@ -66,9 +66,9 @@ public class MenuTest extends ApplicationTest {
 
 		this.stepNum = 1;
 
-		this.getExcelReporter().addTestId("FEIS-TC-1.0.3");
+		this.getExcelReporter().addTestId("NICHE-TC-1.0.0");
 		this.getExcelReporter().addRowData(new String[] { "STEP", "WHAT", "RESULT" });
-		TestReporter.step("INFO", this.getExcelReporter(), this.stepNum++, "Testing Conducting a Form 6 SearchForm6");
+		TestReporter.step("INFO", this.getExcelReporter(), this.stepNum++, "Testing Menu on spash page");
 		this.login();
 		
 		// After the login, create all the web pages used within this test.
