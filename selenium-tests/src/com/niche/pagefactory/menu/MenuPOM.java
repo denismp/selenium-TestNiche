@@ -49,11 +49,3 @@ public class MenuPOM {
 	}
 
 }
-
-//driver.findElement(By.id("user_login")).click();
-//driver.findElement(By.id("user_login")).clear();
-//driver.findElement(By.id("user_login")).sendKeys("denis putnam");
-//driver.findElement(By.id("user_email")).clear();
-//driver.findElement(By.id("user_email")).sendKeys("my@mail.com");
-//driver.findElement(By.id("user_pass")).clear();
-//driver.findElement(By.id("user_pass")).sendKeys("dummy");
