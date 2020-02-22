@@ -61,7 +61,7 @@ public class MenuTest extends ApplicationTest {
 
 
 	@Test(priority = 0)
-	public void testForm6Search() throws Exception {
+	public void testMenu() throws Exception {
 		this.getExcelInput().readNewWorkSheet("TC1.0.0");
 
 		this.stepNum = 1;
