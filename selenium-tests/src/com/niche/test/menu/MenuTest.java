@@ -1,5 +1,8 @@
-package com.niche.test.splashpage;
+package com.niche.test.menu;
 
+/**
+ * @author denisputnam
+ */
 
 import java.util.regex.Pattern;
 import java.util.concurrent.TimeUnit;

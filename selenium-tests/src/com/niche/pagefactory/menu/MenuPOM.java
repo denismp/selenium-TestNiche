@@ -1,7 +1,7 @@
 /**
  * 
  */
-package com.niche.pagefactory.splashpage;
+package com.niche.pagefactory.menu;
 
 import org.openqa.selenium.By;
 /**
