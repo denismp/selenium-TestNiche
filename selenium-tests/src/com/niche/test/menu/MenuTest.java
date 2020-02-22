@@ -69,12 +69,12 @@ public class MenuTest extends ApplicationTest {
 		this.getExcelReporter().addTestId("NICHE-TC-1.0.0");
 		this.getExcelReporter().addRowData(new String[] { "STEP", "WHAT", "RESULT" });
 		TestReporter.step("INFO", this.getExcelReporter(), this.stepNum++, "Testing Menu on spash page");
-		this.login();
+		//this.login();
 		
 		// After the login, create all the web pages used within this test.
 		MenuPOM objMainMenu = new MenuPOM(this.driver);
 
-		Thread.sleep(5000);
+		//Thread.sleep(5000);
 		
 		//this.click(objMainMenu.getForm6SearchButton(), "Search Form");
 		
