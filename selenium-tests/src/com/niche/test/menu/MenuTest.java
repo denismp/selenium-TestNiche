@@ -68,7 +68,7 @@ public class MenuTest extends ApplicationTest {
 
 		this.getExcelReporter().addTestId("NICHE-TC-1.0.0");
 		this.getExcelReporter().addRowData(new String[] { "STEP", "WHAT", "RESULT" });
-		TestReporter.step("INFO", this.getExcelReporter(), this.stepNum++, "Testing Menu on spash page");
+		TestReporter.step("INFO", this.getExcelReporter(), this.stepNum++, "Testing Menu on splash page");
 		//this.login();
 		
 		// After the login, create all the web pages used within this test.
