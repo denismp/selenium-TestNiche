@@ -28,8 +28,8 @@ public class Login {
 	@FindBy(xpath = "/html/body/app-root/app-privavy/div/p")
 	private WebElement warningText;
 	
-	@FindBy(id = "atfLogo")
-	private WebElement atfLogo;
+	@FindBy(id = "someLogo")
+	private WebElement someLogo;
 
 	public Login(WebDriver driver) {
 		// The web driver is set up in the com.feis.test package, via the setUp() method.
@@ -73,7 +73,7 @@ public class Login {
 	/**
 	 * @return the atfLogo
 	 */
-	public WebElement getAtfLogo() {
-		return atfLogo;
+	public WebElement getSomeLogo() {
+		return someLogo;
 	}
 }
