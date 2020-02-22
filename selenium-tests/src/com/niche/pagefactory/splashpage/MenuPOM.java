@@ -13,13 +13,13 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
-public class SplashPagePOM {
+public class MenuPOM {
 	private WebDriver driver;
 	
 	@FindBy(xpath = "//p-menu[@id='itemsId']/div/ul/li[2]/a/span")
 	WebElement menu;
 
-	public SplashPagePOM(WebDriver driver) {
+	public MenuPOM(WebDriver driver) {
 		// The web driver is set up in the com.feis.test package, via the setUp() method.
 		this.driver = driver;
 		// This initElements method will create all WebElements

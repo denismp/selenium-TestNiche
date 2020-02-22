@@ -9,7 +9,7 @@ import org.openqa.selenium.*;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.support.ui.Select;
 
-public class SplashPageTestCase {
+public class MenuTest {
   private WebDriver driver;
   private String baseUrl;
   private boolean acceptNextAlert = true;
@@ -23,7 +23,7 @@ public class SplashPageTestCase {
   }
 
   @Test
-  public void testSplashPageTestCase() throws Exception {
+  public void testMenuTest() throws Exception {
     driver.get("http://localhost:4200/");
     driver.findElement(By.xpath("//p-menu[@id='itemsId']/div/ul/li[2]/a/span")).click();
   }

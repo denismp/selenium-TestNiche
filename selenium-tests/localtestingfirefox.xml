@@ -12,7 +12,7 @@
 		<parameter name="userName" value="etest182"></parameter>
 		<parameter name="password" value="password"></parameter>
 		<classes>
-			<class name="com.niche.test.splashpage.SplashPageTestCase"></class>
+			<class name="com.niche.test.splashpage.MenuTest"></class>
 		</classes>
 	</test>
 	
